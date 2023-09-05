@@ -25,7 +25,7 @@ task zip(type: Zip) {
 	}
 	archiveBaseName = "trainSchedule"
 	destinationDirectory = (file("dist"))
-	}
+}
 
 //declare task dependencies
 build.dependsOn zip
